@@ -24,3 +24,7 @@ constellation-ascii = "constellation_ascii:main"
 
 [tool.setuptools]
 py-modules = ["constellation_ascii"]
+
+[project.urls]
+Homepage = "https://github.com/fbous/constellation-ascii"
+Issues = "https://github.com/fbous/constellation-ascii/issues"
