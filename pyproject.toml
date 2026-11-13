@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "constellation-ascii"
+version = "1.0.0"
+description = "Render star constellations (and today's planets) as ASCII art for terminals and login banners"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Frederik Bous" }]
+requires-python = ">=3.8"
+keywords = ["astronomy", "constellation", "ascii-art", "motd", "terminal"]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: System :: Systems Administration",
+]
+
+[project.scripts]
+constellation-ascii = "constellation_ascii:main"
+
+[tool.setuptools]
+py-modules = ["constellation_ascii"]
