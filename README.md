@@ -7,7 +7,7 @@ in the field. Pure Python stdlib, no dependencies.
 ## Install
 
 ```bash
-pipx install git+https://github.com/fbous/constellation-ascii
+pipx install constellation-ascii
 ```
 
 Or just run the single file: `python3 constellation_ascii.py orion`.
